@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  background: #f3f5f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.login-header h1 {
+  margin: 0 0 10px;
+
+  font-size: 28px;
+  font-weight: 700;
+
+  color: #222;
+}
+
+.login-header p {
+  margin: 0;
+
+  font-size: 14px;
+  color: #777;
+}
+
+.login-form-group {
+  margin-bottom: 20px;
+
+}
+
+.login-form-group label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #333;
+}
+
+.login-form-group input {
+  width: 100%;
+
+  padding: 12px 14px;
+
+  font-size: 15px;
+
+  border: 1px solid #ccc;
+  border-radius: 7px;
+
+  outline: none;
+}
+
+.login-form-group input:focus {
+  border-color: #555;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+.signup-button {
+  width: 15%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(218, 237, 232);
+
+  cursor: pointer;
+}
+
+.login-button {
+  width: 30%;
+
+  padding: 10px;
+
+  margin-top: 5px;
+
+  border: none;
+  border-radius: 7px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+.login-buttons{
+    display: flex;
+ margin-top: 10px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.login-button:hover {
+  opacity: 0.85;
+}
+
+.error-message {
+  margin-bottom: 15px;
+
+  padding: 10px;
+
+  background: #f8d7da;
+  color: #842029;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+  text-align: center;
+}
+.success-message {
+  margin-bottom: 15px;
+
+  padding: 10px;
+
+  background: #8d8c8c;
+  color: #4fe4a6;
+
+  border-radius: 6px;
+
+  font-size: 16px;
+  text-align: center;
+}
+
+
